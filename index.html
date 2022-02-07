@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hangman Game</title>
+	<link rel="stylesheet" href="CSS/main.css">
+</head>
+
+<body>
+	
+	<div class="container">
+		<div class="title">
+			<h1>Juego del ahorcado</h1>
+		</div>
+		<div class="game-info">
+			<!--<div class="game-name">Hangman</div>-->
+			<div class="game-name">
+				Chances left <span></span> of 8
+			</div>
+			<div class="category">
+				Word From: <span></span>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="hangman-draw">
+				<div class="the-draw">
+					<div class="the-stand"></div>
+					<div class="the-hang"></div>
+					<div class="the-rope"></div>
+					<div class="the-man">
+						<div class="head"></div>
+						<div class="body"></div>
+						<div class="hands"></div>
+						<div class="legs"></div>
+					</div>
+				</div>
+			</div>
+			<div class="letters"></div>
+			</div>
+			<hr>
+			<div class="letters-guess"></div>
+			</div>
+	<div class="footer">
+		<p>Participating student: Carrillo Camacho Gustavo Adolfo @
+			Guadalajara, Jalisco, México, February 03, 2022; Second Challenge Alura-Oracle</p>
+	</div>
+	<audio id="success" src="Audios/mixkit-retro-game-notification-212.wav" preload="auto"></audio>
+	<audio id="fail" src="Audios/mixkit-video-game-mystery-alert-234.wav" preload="auto"></audio>
+	<audio id="You_win" src="Audios/mixkit-auditorium-moderate-applause-and-cheering-502.wav" preload="auto"></audio>
+	<audio id="You_lose" src="Audios/mixkit-crowd-disappointment-long-boo-463.wav" preload="auto"></audio>
+	<script src="JavaScript/main.js"></script>
+	<script src="JavaScript/clickEventHandler.js"></script>
+	<script src="JavaScript/comparingEqualityArrays.js"></script>
+	<script src="JavaScript/failGame.js"></script>
+	<script src="JavaScript/winGame.js"></script>
+</body>
+
+</html>
